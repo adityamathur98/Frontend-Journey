@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cricketer-pg-top-section {
+  background-color: #fb4e71;
+  padding: 15px;
+}
+
+.cricketer-pg-top-section-heading {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.cricketer-pg-top-section-description {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.cricketer-pg-bottom-section {
+  background-color: #e6f6ff;
+  height: 76vh;
+  padding: 10px;
+}
+
+.cricketer-pg-bottom-section-title {
+  color: #323f4b;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding: 8px;
+}
+
+.cricketer-pg-bottom-section-card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 5px;
+}
+
+.card-img {
+  height: 170px;
+  width: 120px;
+}
+
+.cricketer-pg-bottom-section-text-container {
+  padding: 8px;
+}
+
+.cricketer-pg-bottom-text-container-heading {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cricketer-pg-bottom-text-container-description {
+  color: #888888;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.cricketer-pg-bottom-section-video-container {
+  width: 96px;
+  margin: 5px;
+}
+
+.cricketer-records-description {
+  font-family: "Roboto";
+  font-size: 12px;
+}

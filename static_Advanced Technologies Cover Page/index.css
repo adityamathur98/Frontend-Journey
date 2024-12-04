@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.advanced-cover-pg-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+
+.advanced-cover-pg-card-container {
+  background-color: #ffffff;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.advanced-cover-pg-card-heading {
+  color: #5752ab;
+  font-size: 24px;
+  font-family: "Bree Serif";
+}
+
+.advanced-cover-pg-card-description {
+  font-family: "Roboto";
+  color: #323f4b;
+}
+
+.learn-button {
+  background-color: #ffffff;
+  color: #171f46;
+  width: 126px;
+  height: 38px;
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Save-button {
+  background-color: #5752ab;
+  border: 0;
+  color: #ffffff;
+  width: 126px;
+  height: 38px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.goa-pg-heading {
+  font-family: "Roboto";
+  color: #323f4b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.goa-pg-description {
+  font-family: "Roboto";
+  color: #9aa5b1;
+  font-size: 14px;
+}
+
+.goa-card-img {
+  margin-left: 12px;
+  margin-right: 8px;
+}
+
+.goa-video-container {
+  width: 96px;
+  height: 96px;
+  border-radius: 8px;
+  margin: 4px;
+}

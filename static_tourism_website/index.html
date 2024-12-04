@@ -21,11 +21,110 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="bg-container d-flex flex-column justify-content-end">
-      <div class="toursim-card">
-        <h1 class="main-heading">Tourism</h1>
-        <p class="description">Plan your Trip</p>
-        <button class="btn btn-primary">Get Started</button>
+    <!-- Home Page Code -->
+    <div id="sectionHome">
+      <div class="bg-container d-flex flex-column justify-content-end">
+        <div class="toursim-card">
+          <h1 class="main-heading">Tourism</h1>
+          <p class="description">Plan your Trip</p>
+          <button class="button" onclick="display('sectionFavouritePlaces')">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fav Place Section -->
+    <div id="sectionFavouritePlaces">
+      <div class="favorite-place-bg-container">
+        <h1 class="favorite-places-heading">Favourite Places</h1>
+        <!-- 1 -->
+        <div
+          class="favorite-place-card d-flex flex-row justify-content-between">
+          <div class="text-container">
+            <h1 class="favorite-place-card-heading">Golden Temple</h1>
+            <p class="favorite-place-card-description">
+              Amritsar is world-famous for the beautiful and highly revered
+              Golden Temple
+            </p>
+          </div>
+          <img
+            src="https://img.freepik.com/premium-photo/golden-temple_78361-552.jpg?w=1060"
+            alt="tajmahal.jpg"
+            class="favorite-place-card-img" />
+        </div>
+        <!-- 2 -->
+        <div
+          class="favorite-place-card d-flex flex-row justify-content-between">
+          <div class="text-container">
+            <h1 class="favorite-place-card-heading">Mysore Palace</h1>
+            <p class="favorite-place-card-description">
+              The Mysore Palace is a historical palace and the royal residence
+              at Mysore .
+            </p>
+          </div>
+          <img
+            src="https://img.freepik.com/premium-photo/mysore-palace_78361-1014.jpg?w=1380"
+            alt="tajmahal.jpg"
+            class="favorite-place-card-img" />
+        </div>
+        <!-- 3 -->
+        <div
+          class="favorite-place-card d-flex flex-row justify-content-between">
+          <div class="text-container">
+            <h1 class="favorite-place-card-heading">Varanasi Temple</h1>
+            <p class="favorite-place-card-description">
+              Varanasi Temple is most famous Hindu temples dedicated to Lord
+              Shiva
+            </p>
+          </div>
+          <img
+            src="https://img.freepik.com/premium-photo/view-from-boat-shore-sacred-river-ganges-varanasi-holiday_431724-5319.jpg?w=1060"
+            alt="tajmahal.jpg"
+            class="favorite-place-card-img" />
+        </div>
+        <!-- 4 -->
+        <div
+          class="favorite-place-card d-flex flex-row justify-content-between">
+          <div class="text-container">
+            <h1 class="favorite-place-card-heading">Taj Mahal</h1>
+            <p class="favorite-place-card-description">
+              If there was just one symbol to represent all of India, It would
+              be the tajmahal.
+            </p>
+          </div>
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png"
+            alt="tajmahal.jpg"
+            class="favorite-place-card-img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Page Section -->
+    <div class="detailed-view-bg-container">
+      <h1 class="detailed-view-heading">Detailed View</h1>
+      <div class="detailed-view-card-container">
+        <div class="ratio ratio-16x9 w-50">
+          <iframe
+            src="https://www.youtube.com/embed/49HTIoCccDY?rel=0"
+            title="YouTube video"
+            allowfullscreen></iframe>
+        </div>
+        <div class="p-3">
+          <h1 class="detailed-view-card-heading">Taj Mahal</h1>
+          <p class="detailed-view-card-description">
+            The Taj Mahal is considered to be the greatest architectural
+            achievement in the whole range of Indo-Islamic architecture. Its
+            recognised architectonic beauty has a rhythmic combination of solids
+            and voids, concave and convex and light shadow; such as arches and
+            domes further increases the aesthetic aspect. The colour combination
+            of lush green scape reddish pathway and blue sky over it show cases
+            the monument in ever changing tints and moods. The relief work in
+            marble and inlay with precious and semi precious stones make it a
+            monument apart.
+          </p>
+        </div>
       </div>
     </div>
 

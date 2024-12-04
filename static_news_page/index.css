@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.news-pg-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.news-pg-card-container {
+  background-color: #ffffff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.news-pg-card-title {
+  color: #7b8794;
+  font-size: 12px;
+  font-family: "Roboto";
+}
+
+.news-pg-card-heading {
+  color: #323f4b;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.news-pg-card-descrition {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.read-more-button {
+  background-color: #323f4b;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  width: 109px;
+  height: 38px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 500;
+}

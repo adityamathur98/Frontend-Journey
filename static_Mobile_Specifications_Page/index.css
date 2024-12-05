@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mobile-speci-bg-container {
+  border: 2px solid #0a1f44;
+}
+
+.mobile-pg-heading {
+  font-family: "Roboto";
+  color: #0a1f44;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.mobile-pg-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #707070;
+  font-family: "Roboto";
+}

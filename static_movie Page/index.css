@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.movie-page-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+  background-size: cover;
+}
+
+.movie-page-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.watch-btn {
+  width: 98px;
+  height: 38px;
+  font-family: "Roboto";
+  background-color: #ffffff;
+  color: #ff8348;
+  border: 0;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.movie-pg-description {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.movie-page-sub-heading {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}

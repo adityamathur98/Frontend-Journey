@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.color-picker-bg-container {
+  height: 100vh;
+}
+
+.color-picker-heading {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.button {
+  width: 120px;
+  height: 120px;
+  background-color: #e0e0e0;
+  border: 3px solid #222222;
+  cursor: pointer;
+}
+
+.button1-bg {
+  background-color: #e0e0e0;
+}
+
+.button2-bg {
+  background-color: #6fcf97;
+}
+
+.button3-bg {
+  background-color: #56ccf2;
+}
+
+.button4-bg {
+  background-color: #bb6bd9;
+}
+
+.background-color-para {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.color-picker-description {
+  font-family: "Open Sans";
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tip-calculator-container {
+  background-color: #f9fbfe;
+}
+
+.tip-calculator-image {
+  width: 100%;
+}
+
+.tip-calculator-heading {
+  color: #264fa2;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.input-label {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.user-input {
+  height: 40px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+.calculate-tip-button {
+  background-color: #264fa2;
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: #cf1124;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}

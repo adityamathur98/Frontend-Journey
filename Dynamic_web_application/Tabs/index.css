@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: #f1f5f8;
+}
+
+.heading {
+  color: #102a42;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.description {
+  font-family: "Roboto";
+}
+
+.tabs-container {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: #dae2ec;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 33%;
+  border-width: 0;
+  border-radius: 8px;
+}
+
+.selected-button {
+  background-color: white;
+}
+
+.tab-content {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 15px;
+}

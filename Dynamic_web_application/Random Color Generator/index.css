@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.instruction {
+  font-family: "Open Sans";
+}
+
+.button {
+  color: white;
+  background-color: #0967d2;
+  width: 150px;
+  height: 40px;
+  border-width: 0;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.bg-container {
+  height: 100vh;
+}

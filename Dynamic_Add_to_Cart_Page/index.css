@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cart-items-container {
+  list-style-type: none;
+}
+
+.item {
+  font-weight: "Roboto";
+  margin: 5px;
+}

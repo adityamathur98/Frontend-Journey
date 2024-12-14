@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.recipe-title {
+  text-align: center;
+  color: #de3a11;
+  font-family: "Lobster";
+  font-size: 60px;
+}
+
+.ingredients-container {
+  background-image: linear-gradient(#09203f, #537895);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.ingredients-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.list-item {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 22px;
+}

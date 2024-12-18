@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.review-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 28px;
+  color: #2d3a35;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #7b8794;
+  font-family: "Roboto";
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.title-input {
+  font-family: "Roboto";
+  height: 40px;
+  color: #7b8794;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+.review-textarea {
+  color: #2d3a2d;
+  font-family: "Roboto";
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}

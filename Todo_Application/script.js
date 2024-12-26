@@ -27,12 +27,27 @@ let addButtonEl = document.getElementById("addTodoButton");
 let todoItemsContainerEl = document.getElementById("todoItemsContainer");
 let saveTodoButtonEl = document.getElementById("saveTodoButton");
 
-function onTodoStatusChange(checkboxId, labelId) {
+function onTodoStatusChange(checkboxId, labelId, todoId) {
   let checkboxEl = document.getElementById(checkboxId);
-  console.log(checkboxEl.checked);
-
   let labelEl = document.getElementById(labelId);
   labelEl.classList.toggle("checked");
+
+  let todoObjIndex = todoList.findIndex(function (eachTodo) {
+    let eachTodoId = "todo" + eachTodo.uniqueNo;
+    if (eachTodoId === todoId) {
+      return true;
+    } else {
+      return false;
+    }
+  });
+
+  let todoObj = todoList[todoObjIndex];
+
+  if (todoObj.isChecked === true) {
+    todoObj.isChecked = false;
+  } else {
+    todoObj.isChecked = true;
+  }
 }
 
 function removeTodo(todoId) {
@@ -68,8 +83,9 @@ function createAndAppendTodo(todo) {
 
   let inputEl = document.createElement("input");
   inputEl.id = checkboxId;
+  inputEl.checked = todo.isChecked;
   inputEl.onclick = function () {
-    onTodoStatusChange(checkboxId, labelId);
+    onTodoStatusChange(checkboxId, labelId, todoId);
   };
   inputEl.type = "checkbox";
   inputEl.classList.add("checkbox-input");
@@ -84,6 +100,9 @@ function createAndAppendTodo(todo) {
   labelEl.id = labelId;
   labelEl.classList.add("checkbox-label");
   labelEl.textContent = todoText;
+  if (todo.isChecked) {
+    labelEl.classList.add("checked");
+  }
   labelContainer.appendChild(labelEl);
 
   let deleteContainerEl = document.createElement("div");
@@ -115,6 +134,7 @@ function addTodo() {
   let newTodo = {
     text: userInputValue,
     uniqueNo: todosCount,
+    isChecked: false,
   };
   todoList.push(newTodo);
   createAndAppendTodo(newTodo);

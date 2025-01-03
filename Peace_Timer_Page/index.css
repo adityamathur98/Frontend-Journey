@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(#189ffd, #29f39c);
+  height: 100vh;
+}
+
+.peace-page-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.peace-page-heading {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+.peace-page-description {
+  color: #616e7c;
+  font-family: "Roboto";
+}
+
+.heading {
+  color: #323f4b;
+  font-family: "Bree Serif";
+  font-size: 28px;
+}
+
+.buttons-list-container {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.button {
+  font-family: "Roboto";
+  font-size: 15px;
+  background-color: #05a8f2;
+  color: white;
+  border-width: 0;
+  border-radius: 8px;
+  width: 70px;
+  height: 75px;
+  margin: 5px;
+}

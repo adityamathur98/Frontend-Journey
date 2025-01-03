@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+.counter-value {
+  font-size: 36px;
+  font-weight: bold;
+}

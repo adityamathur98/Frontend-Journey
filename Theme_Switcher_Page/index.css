@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/change-theme-light-bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.heading {
+  color: #014d40;
+  font-size: 48px;
+  font-family: "Lobster";
+}
+
+.user-input {
+  width: 150px;
+}

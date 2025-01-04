@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: #3e4c59;
+  font-family: "Bree Serif";
+  font-size: 28px;
+}
+
+.key-code-list {
+  list-style-type: none;
+}

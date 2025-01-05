@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.timer-convertor-bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/time-converter-bg.png");
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+}
+
+.timer-heading {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 52px;
+  color: #ffffff;
+}
+
+.timer-para {
+  font-family: "Open Sans";
+  color: #f5f7fa;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.timer-label {
+  font-family: "Open Sans";
+  color: #f5f7fa;
+  font-weight: bold;
+}
+
+.timer-input {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #000000;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  width: 95%;
+  height: 48px;
+  padding: 12px;
+}
+
+.time-in-seconds {
+  font-family: "Open Sans";
+  font-size: 22px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  font-weight: bold;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f5f7fa;
+}
+
+.error-msg {
+  color: #f5f7fa;
+  font-family: "Open Sans";
+}

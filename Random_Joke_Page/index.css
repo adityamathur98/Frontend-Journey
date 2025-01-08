@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #49c4ee, #6e87d6);
+  height: 100vh;
+}
+
+.joke-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.joke-button {
+  color: #6c8bd8;
+  background-color: #ffffff;
+  font-size: 24px;
+  width: 120px;
+  border-width: 0;
+  border-radius: 4px;
+}

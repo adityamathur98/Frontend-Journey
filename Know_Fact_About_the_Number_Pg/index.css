@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.user-input {
+  width: 320px;
+}
+
+.spinner {
+  color: #ffffff;
+}
+
+.fact-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}

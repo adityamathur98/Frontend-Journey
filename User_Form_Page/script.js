@@ -46,6 +46,18 @@ genderFemaleEl.addEventListener("change", function (event) {
   formData.gender = event.target.value;
 });
 
+function formValidation(formData) {
+  let { name, email } = formData;
+
+  if (name === "") {
+    nameErrMsgEl.textContent = "Required*";
+  }
+
+  if (email === "") {
+    emailErrMsgEl.textContent = "Required*";
+  }
+}
+
 function submitFormData(formData) {
   let option = {
     method: "POST",
@@ -74,6 +86,6 @@ function submitFormData(formData) {
 
 myFormEl.addEventListener("submit", function (event) {
   event.preventDefault();
-  //formValidation();
+  formValidation(formData);
   submitFormData(formData);
 });

@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.update-password-bg-container {
+  background-image: linear-gradient(to bottom, #ffa6b7, #1e2ad2);
+  height: 100vh;
+}
+
+.update-password-heading {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.input-label {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #ff0000;
+  font-family: "Roboto";
+  font-size: 14px;
+}

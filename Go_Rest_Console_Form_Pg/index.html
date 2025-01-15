@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Rest Console</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet" />
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Content Goes Here -->
+    <div class="bg-container">
+      <div class="container pt-5 pb-5">
+        <div
+          class="row pt-4 pb-4 d-flex flex-row justify-content-center console-container">
+          <h1 class="col-12 mb-2 text-center heading">GO REST CONSOLE</h1>
+          <form class="col-11" id="consoleForm">
+            <div class="mb-2">
+              <label>Request URL</label>
+              <input
+                class="form-control"
+                type="text"
+                value="https://gorest.co.in/public-api/users"
+                id="requestUrl" />
+              <p class="error-message" id="requestUrlErrMsg"></p>
+            </div>
+            <div class="mb-2">
+              <label>Request Method</label>
+              <select class="form-control mb-2" id="requestMethod">
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+              </select>
+            </div>
+            <div class="mb-2">
+              <label>Request Body</label>
+              <textarea
+                class="form-control w-100"
+                rows="5"
+                id="requestBody"></textarea>
+            </div>
+            <div class="text-right">
+              <button
+                type="submit"
+                class="p-2 btn btn-primary"
+                id="sendRequestBtn">
+                Send Request
+              </button>
+            </div>
+          </form>
+          <div class="col-11 mt-4">
+            <label>Response Status</label>
+            <input class="form-control" type="text" id="responseStatus" />
+          </div>
+          <div class="col-11 mt-2">
+            <label>Response Body</label>
+            <textarea
+              class="form-control w-100"
+              rows="6"
+              id="responseBody"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- External JS File  -->
+    <script src="script.js"></script>
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

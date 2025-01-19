@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Caveat&family=Bree+Serif&display=swap");
+
+.card-item {
+  max-width: 323px;
+  list-style-type: none;
+}
+
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.heading {
+  color: #171f46;
+  font-family: "Roboto";
+}
+
+.description {
+  color: #64748b;
+  font-family: "Roboto";
+}

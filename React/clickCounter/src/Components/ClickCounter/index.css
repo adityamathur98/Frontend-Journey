@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.counter-heading {
+  font-family: "Roboto";
+  color: #2d3a35;
+}
+
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 50px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+}
+
+.description {
+  color: #2d3a35;
+  font-family: "Roboto";
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Bree+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: "Roboto";
+  color: #32404d;
+}
+
+.counter {
+  font-family: "Roboto";
+  color: #2e3e4e;
+}
+
+.button {
+  background-color: #7c69e9;
+}

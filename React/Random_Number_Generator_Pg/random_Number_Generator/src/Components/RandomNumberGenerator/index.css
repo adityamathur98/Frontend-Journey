@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png");
+}
+
+.random-number-container {
+  box-shadow: 0px 4px 16px 0px #eaebed;
+}

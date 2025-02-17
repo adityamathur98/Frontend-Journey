@@ -1,0 +1,181 @@
+/* index.css */
+
+/* General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.heading {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.digital-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Timer Display Styling */
+.timer-display-container {
+  width: 320px;
+  height: 250px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elapsed-time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.elapsed-time {
+  color: #00d9f5;
+  font-size: 1.75em;
+  margin: 0;
+  font-weight: 800;
+}
+
+.timer-state {
+  color: #1e293b;
+  font-size: 0.875em;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Controls Styling */
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-controller-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.timer-controller-btn {
+  background-color: transparent;
+  border: none;
+  margin: 0 16px;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.timer-controller-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.timer-controller-label {
+  color: #1e293b;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* Timer Limit Controller Styling */
+.timer-limit-controller-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.limit-label {
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.timer-limit-controller {
+  display: flex;
+  align-items: center;
+}
+
+.limit-controller-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.limit-label-and-value-container {
+  margin: 0 10px;
+}
+
+.limit-value {
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .heading {
+    font-size: 3em;
+  }
+
+  .timer-display-container {
+    width: 450px;
+    height: 320px;
+  }
+
+  .timer-controller-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+  }
+
+  .timer-controller-label {
+    font-size: 2em;
+  }
+
+  .elapsed-time {
+    font-size: 3em;
+  }
+
+  .timer-state {
+    font-size: 1.5em;
+  }
+}

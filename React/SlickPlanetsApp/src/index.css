@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+  font-size: 30px;
+}
